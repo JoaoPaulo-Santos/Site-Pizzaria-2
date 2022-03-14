@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <title>Pizzaria Palladares</title>
+</head>
+<body>
+    <header class="header--container">
+        <div class="logo--container">
+            <h1><strong>Pizzaria Palladares</strong></h1>
+            <img src="./assets/images/delivery.png" alt="icone com imagem de delivery" srcset="">
+        </div>
+        <nav class="nav">
+            <ul class="nav--menu">
+                <li class="nav--menu__options">
+                    <a href="./menu.html" target="_blank" rel="noopener noreferrer">Cardápio</a>
+                </li>
+                <li class="nav--menu__options">
+                    <a href="#onde__estamos">Onde Estamos</a>
+                </li>
+                <li class="nav--menu__options">
+                    <a href="https://cardapio.anota.ai/?access_token=eyJhbGciOiJIUzI1NiJ9.eyJpZGNsaWVudCI6IjVmYzE5OGE4NmIyYzcyMDAyOWUyODJlNyIsImlkcGFnZSI6IjVmODg3ODBjZmY0YzljMDAyMWJkZWQ0NSIsImxpbmtfYWNjZXNzZWQiOnRydWUsIndoYXRzYXBwIjp0cnVlfQ.3HvMiPc3GafYSeu77SwpGgktGW6F6cH11WSF9ttmG48&from=whats" target="_blank" rel="noopener noreferrer">Faça seu pedido</a>
+                </li>
+            </ul>
+            <ul class="nav--social_medias">
+                <li class="nav--social_medias--links">
+                    <a href="https://web.whatsapp.com/send?phone=5511941471963" target="_blank">
+                        <img src="./assets/images/whats.png" alt="logo com link para o whatsapp" srcset="" class="social--media__icons">
+                    </a>
+                </li>
+                <li class="nav--social_medias--links">
+                    <a href="https://www.facebook.com/pallares.pizzaria/" target="_blank">
+                        <img src="./assets/images/face.png" alt="logo com link para o facebook da pizzaria" srcset="" class="social--media__icons">
+                    </a>
+                </li>
+                <li class="nav--social_medias--links">
+                    <a href="https://www.instagram.com/palladares_pizzaria/" target="_blank">
+                        <img src="./assets/images/insta.png" alt="logo com link para o instagram da pizzaria" srcset="" class="social--media__icons">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container--institucional">
+        <div class="card--institucional">
+            <img src="./assets/images/pizza-icon.png" alt="icone de pizza" class="img--icon">
+            <p>
+                A pizzaria Palladares é um estabelecimento familiar. 
+            </p>
+            <p>
+                Nasceu de um sonho e uma visão de fornecer um excelente serviço, com um preço acessível a todos.
+            </p>
+            <p>
+                Nossos chefes de cozinha possuem mais 20 anos de experiência como pizzaiolos e já passaram pelas principais pizzarias da cidade.
+            </p>
+        </div>
+        <div class="card--institucional">
+            <div class="ingredients--icons__container">
+                <img src="./assets/images/ingredients-icon.png" alt="icone de ingredientes" srcset="" class="img--icon">
+                <span>
+                    <img src="./assets/images/mass-icon.png" alt="" srcset="">
+                </span>
+            </div>
+            <p>
+                Na Pizzaria Pallares prezamos por utilizar os melhores ingredientes. 
+            </p>
+            <p>
+                Buscamos trabalhar com os melhores fornecedores para oferecer produtos de qualidade.
+            </p>
+            <p>
+                Nossas frutas e vegetais são compradas sempre no mesmo dia para podermos trabalhar com produtos frescos.
+            </p>
+        </div>
+        <div class="card--institucional">
+            <img src="./assets/images/calzone.png" alt="icone de calzone" class="img--icon">
+            <p>Trabalhamos com <strong>pizzas e calzones</strong>.</p>
+            <p>Nossas pizzas doces são as melhores da região.</p>
+            <p id="card--institucional__call"><strong>Venha conferir!</strong></p>
+        </div>
+    </section>
+    <section class="image--gallery">
+        <div class="image--gallery__container">
+            <div class="col">
+                <img src="./assets/images/pizza-img-1-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(1)" class="hover-shadow preview">                
+            </div>
+            <div class="col">
+                <img src="./assets/images/pizza-img-2-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(2)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="./assets/images/pizza-img-3-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(3)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="./assets/images/pizza-img-4-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(4)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="./assets/images/pizza-img-5-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(5)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="./assets/images/pizza-img-6-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(6)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="./assets/images/pizza-img-7-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(7)" class="hover-shadow preview">
+            </div>
+            <div class="col">
+                <img src="./assets/images/pizza-img-8-small.jpeg" alt="" class="pizza--image" onclick="openLightbox();toSlide(8)" class="hover-shadow preview">
+            </div>
+        <div>
+
+        <div id="Lightbox" class="modal">
+            <span class="close pointer" onclick="closeLightbox()">&times;</span>
+            <div class="modal-content">
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-1.jpeg" class="image-slide" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-2.jpeg" class="image-slide" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-3.jpeg" class="image-slide" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-4.jpeg" class="image-slide" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-5.jpeg" class="image-slide" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-6.jpeg" class="image-slide" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-7.jpeg" class="image-slide" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./assets/images/pizza-img-8.jpeg" class="image-slide" alt="" />
+                </div>
+
+                <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+                <div class="dots">
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-1.jpeg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-2.jpeg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-3.jpeg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-4.jpeg" class="modal-preview hover-shadow" onclick="toSlide(4)" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-5.jpeg" class="modal-preview hover-shadow" onclick="toSlide(5)" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-6.jpeg" class="modal-preview hover-shadow" onclick="toSlide(6)" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-7.jpeg" class="modal-preview hover-shadow" onclick="toSlide(7)" alt="" />
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pizza-img-8.jpeg" class="modal-preview hover-shadow" onclick="toSlide(8)" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="onde--estamos" id="onde__estamos">
+        <div class="mapa-container">
+            <h2>Endereço</h2>
+            <p>Avenida Dalva de Oliveira, 109 - Jardim Rosinha, Morro Doce</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.577012462967!2d-46.80373078502456!3d-23.439642284743385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cefd13e5d3e9eb%3A0xf63a787b3d2b5daa!2sAv.%20Dalva%20de%20Oliveira%2C%20109%20-%20Jardim%20Rosinha%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005274-001!5e0!3m2!1spt-BR!2sbr!4v1645550782106!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapa"></iframe>
+        </div>
+        <div class="contatos">
+            <h2>Horário de Funcionamento</h2>
+            <p>De Terça a Quinta, das 18:00 às 23:00</p>
+            <p>Sexta e Sábado, das 18:00 às 23:59</p>
+            <p>Domingo, das 18:00 às 23:30</p>
+            <h2>Telefones</h2>
+            <p>(011) 3916-6045</p>
+            <p>(011) 94147-1963</p>
+            <div class="redes-sociais">
+                <h2>Nos siga nas redes socias!</h2>
+                <span>
+                    <a href="https://web.whatsapp.com/send?phone=5511941471963" target="_blank">
+                        <img src="./assets/images/whats.png" alt="logo com link para o whatsapp" srcset="" class="redes-sociais-icons">
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.facebook.com/pallares.pizzaria/" target="_blank">
+                        <img src="./assets/images/face.png" alt="logo com link para o facebook da pizzaria" srcset="" class="redes-sociais-icons">
+                    </a>
+                </span>
+                <span>
+                    <a href="https://www.instagram.com/palladares_pizzaria/" target="_blank">
+                        <img src="./assets/images/insta.png" alt="logo com link para o instagram da pizzaria" srcset="" class="redes-sociais-icons">
+                    </a>
+                </span>
+            </div>
+        </div>    
+    </section>
+    <footer class="footer">
+        <div class="container--author">
+            <p>Site criado por João Silva</p>
+            <a href="mailto:sjoaopaulosilva999@gmail.com" target="_blank">E-mail: sjoaopaulosilva@gmail.com</a>
+        </div>
+        <div class="container--atribution">
+            <p>Ícones usados no site:</p>
+            <a href="https://www.flaticon.com/free-icons/ingredients" title="ingredients icons">Ingredients icons created by Eucalyp - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/pour" title="Pour icons">Pour icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/pizza" title="pizza icons">Pizza icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/calzone" title="calzone icons">Calzone icons created by Freepik - Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/delivery" title="delivery icons">Delivery icons created by monkik - Flaticon</a>
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
